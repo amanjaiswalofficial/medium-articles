@@ -5,3 +5,4 @@ input_data_path = "data.csv"
 ge_manager = GreatExpectationsManager(suite_name)
 validation_result = ge_manager.validate(input_data_path)
 print(validation_result)
+
