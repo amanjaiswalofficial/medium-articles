@@ -1,0 +1,27 @@
+[
+    {
+        "name": "expect_column_values_to_not_be_null",
+        "column": "pickup_datetime",
+        "extra_args": {
+            "result_format": "BASIC"
+        }
+    },
+    {
+        "name": "expect_column_values_to_be_between",
+        "column": "trip_distance",
+        "extra_args": {
+            "min_value": 0,
+            "max_value": null,
+            "result_format": "BASIC"
+        }
+    },
+    {
+        "name": "expect_column_values_to_be_in_set",
+        "column": "payment_type",
+        "extra_args": {
+            "value_set": [1, 2, 3],
+            "result_format": "BASIC"
+        }
+    }
+
+]
